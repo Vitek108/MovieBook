@@ -5,7 +5,7 @@ from .models import Film
 from .forms import FilmForm
 
 
-class FilmIndex(generic.ListView): #ListView pro jednoduché akce, vypíše seznam položek
+class FilmIndex(generic.ListView): #ListView pro jednoduché akce, vypíše seznam položekg
 
     # cesta k templatu ze složky templates (je možné sdílet mezi aplikacemi)
     template_name = "moviebook/film_index.html"
